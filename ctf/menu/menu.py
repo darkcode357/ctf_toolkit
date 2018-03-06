@@ -211,7 +211,9 @@ while True:
                             especial()
                         elif comando == "wordlist_int":
                             _int()
-                        elif comando == "wordlist_int_especial":
+                        elif comando == "wordlist_int_especial ":
+                            int_especial()
+                        elif comando == "darkcode":
                             int_especial()
                         elif comando == "wordlist_str":
                             _str()
@@ -275,7 +277,16 @@ while True:
                                 'use encode_blake2s',
                                 'use encode_sha3_384',
                                 'use encode_sha224',
-                                'sair',
+                                'use wordlist_especial',
+                                'use wordlist_int',
+                                'use wordlist_int_especial',
+                                'use  wordlist_str',
+                                'use wordlist_str_especial',
+                                'use wordlist_str_int_especial',
+                                'use wordlist_str_int_up',
+                                'use wordlist_str_up',
+                                'use wordlist_str_up_especial',
+                                'sair'
                                 ]
                     for i in comandos:
                         print(i)
